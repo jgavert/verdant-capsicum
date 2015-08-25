@@ -1,0 +1,11 @@
+[package]
+name = "poe_shop_broker"
+version = "0.0.1"
+authors = ["Juho Gävert <jgavert@cs.helsinki.fi>"]
+
+[dependencies]
+rustc-serialize = "0.3.16"
+
+[dependencies.hyper]
+git = "https://github.com/hyperium/hyper.git"
+
